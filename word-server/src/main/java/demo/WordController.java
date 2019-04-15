@@ -1,6 +1,7 @@
 package demo;
 
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
@@ -8,10 +9,13 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import demo.domain.Word;
 
 @Controller
+@RefreshScope
 public class WordController {
 
 	@Value("${words}") String words;
-	@Value("${eureka.instance.instanceId}") String instanceId;
+	@Value("${lucky-world}") String luckyWord;
+
+	// @Value("${eureka.instance.instanceId}") String instanceId;
 	
 	@GetMapping("/")
 	public @ResponseBody Word getWord() {
@@ -32,4 +36,8 @@ public class WordController {
 		return profiles;
 	}
 	
+	@GetMapping("/lucky-word")
+	public @ResponseBody String luckyWord() {
+		return luckyWord;
+	}
 }

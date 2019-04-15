@@ -10,3 +10,5 @@ spring:
           searchLocations: classpath:offline-repository/
 server:
   port: 1337
+
+management.endpoints.web.exposure.include: health,info,bus-refresh   

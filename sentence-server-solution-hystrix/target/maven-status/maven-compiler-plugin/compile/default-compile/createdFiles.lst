@@ -1,0 +1,14 @@
+demo/Application.class
+demo/dao/AdjectiveClient.class
+demo/domain/Sentence.class
+demo/dao/NounClient.class
+demo/domain/Word$Role.class
+demo/dao/ArticleClient.class
+demo/dao/VerbClient.class
+demo/dao/SubjectClient.class
+demo/domain/Word.class
+demo/service/SentenceServiceImpl.class
+demo/service/WordServiceImpl.class
+demo/controller/SentenceController.class
+demo/service/SentenceService.class
+demo/service/WordService.class

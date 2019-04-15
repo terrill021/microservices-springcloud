@@ -1,0 +1,13 @@
+/home/master/Escritorio/tareas/sentence-server-solution-hystrix/src/main/java/demo/controller/SentenceController.java
+/home/master/Escritorio/tareas/sentence-server-solution-hystrix/src/main/java/demo/domain/Word.java
+/home/master/Escritorio/tareas/sentence-server-solution-hystrix/src/main/java/demo/Application.java
+/home/master/Escritorio/tareas/sentence-server-solution-hystrix/src/main/java/demo/service/WordServiceImpl.java
+/home/master/Escritorio/tareas/sentence-server-solution-hystrix/src/main/java/demo/dao/AdjectiveClient.java
+/home/master/Escritorio/tareas/sentence-server-solution-hystrix/src/main/java/demo/dao/NounClient.java
+/home/master/Escritorio/tareas/sentence-server-solution-hystrix/src/main/java/demo/dao/ArticleClient.java
+/home/master/Escritorio/tareas/sentence-server-solution-hystrix/src/main/java/demo/service/SentenceServiceImpl.java
+/home/master/Escritorio/tareas/sentence-server-solution-hystrix/src/main/java/demo/service/SentenceService.java
+/home/master/Escritorio/tareas/sentence-server-solution-hystrix/src/main/java/demo/dao/SubjectClient.java
+/home/master/Escritorio/tareas/sentence-server-solution-hystrix/src/main/java/demo/dao/VerbClient.java
+/home/master/Escritorio/tareas/sentence-server-solution-hystrix/src/main/java/demo/domain/Sentence.java
+/home/master/Escritorio/tareas/sentence-server-solution-hystrix/src/main/java/demo/service/WordService.java
